@@ -21,19 +21,7 @@ function App() {
       <Header />
 
       <main className="container">
-        {/* Intro Section */}
-        <section className="intro">
-          <h2>Manage Your Contacts Seamlessly</h2>
-          <p>
-            A simple and secure MERN-based contact manager to store, organize,
-            and access your contacts anytime.
-          </p>
-        </section>
-
-        {/* Contact Form */}
         <ContactForm refresh={fetchContacts} />
-
-        {/* Contact List */}
         <ContactList contacts={contacts} />
       </main>
     </>

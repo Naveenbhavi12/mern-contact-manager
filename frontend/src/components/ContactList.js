@@ -1,6 +1,6 @@
 function ContactList({ contacts }) {
   return (
-    <div className="list-card">
+    <div className="card">
       <h3>Saved Contacts</h3>
 
       {contacts.length === 0 ? (
