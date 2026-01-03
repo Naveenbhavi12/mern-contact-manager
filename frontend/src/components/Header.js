@@ -1,8 +1,8 @@
 function Header() {
   return (
     <header className="header">
-      <h1>Contact Management</h1>
-      <p>Simple MERN Contact Manager</p>
+      <h1>ContactManager</h1>
+      <p>MERN Contact Management App</p>
     </header>
   );
 }

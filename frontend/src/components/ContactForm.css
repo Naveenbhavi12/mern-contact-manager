@@ -1,0 +1,97 @@
+/* CARD */
+.form-card {
+  background: #ffffff;
+  padding: 28px;
+  border-radius: 16px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  margin-bottom: 40px;
+}
+
+/* TITLE */
+.form-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* FORM */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* FORM GROUP */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* LARGE INPUTS */
+.form-group input {
+  height: 52px;
+  padding: 0 14px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+/* LARGE TEXTAREA */
+.form-group textarea {
+  min-height: 160px;
+  padding: 12px 14px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+
+/* FOCUS */
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: black;
+}
+
+/* BUTTON */
+.submit-btn {
+  height: 54px;
+  margin-top: 10px;
+  border-radius: 14px;
+  background: black;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: #222;
+}
+
+/* ALERTS */
+.alert {
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.alert.error {
+  background: #ffe5e5;
+  color: #a00000;
+}
+
+.alert.success {
+  background: #e5ffe9;
+  color: #0a6b2c;
+}
